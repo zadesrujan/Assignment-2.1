@@ -1,0 +1,29 @@
+Java Architecture consists of the following : 
+1.Source Code
+2.Java Compiler
+3.Byte code
+4.JVM(Java Virtual Machine)
+5.Os(Operating System)
+
+1)Source Code : Programmers write software programs using a Programming language known as Java,this language provides a series of instruction,so they can use to create the program they want.
+All the instructions a programmer uses to build the program is called as Source Code.
+
+2)Java Compiler : Java compiler is a software (or) programming language that converts a Java source program into bytecode.
+We can also refer that compiling the sourcecode into native language of a particular hardware platform.
+
+3)Bytecode : Java bytecode is the result of the compilation of a Java program.
+Once Java program has been converted to bytecode it get processed by the JVM(Java Virtual Machine) instead of processor.
+  
+4)JVM(Java Virtual Machine) : JVM is the runtime engine of Java latform,which allows any program written in Java.
+JVM consists of Java runtime environment(JRE),class libraries and other supporting components.
+JRE performs the main tasks like : 1.Load the class. 2.Verifies the bytecode. 3.Interprets the bytecode
+-Class Loader : Class loader loads all the class files required to excute the program,once the bytecode is loaded successfully,
+	        then next step is bytecode verification by bytecode verifier.
+-Bytecode Verifier : It verifies the bytecode to see if any security problems are there in code or not.
+	        Once the code is verified and proven that there is no security issuses with the code,
+	        JVM will convert bytecode into machine code which will be directly executed by the machine in which Java program runs.
+
+5)Os(Operating System) : The low level software that supports a computer's basic functions,such as scheduling tasks
+and controlling peripherals.Java OS is a Opearting system with a Java virtual machine as a fundamental component.
+
+
